@@ -1,0 +1,143 @@
+.total-span {
+    background-clip: text;
+    background: linear-gradient(187deg,
+            #42d392,
+            #3398DB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.h2-final-total {
+    margin: 0px auto;
+}
+
+.subtitle {
+    margin: 15px auto;
+    text-align: center;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.first-form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.first-form-group .form-input {
+    width: 80%;
+    margin: 2px auto;
+}
+
+.first-form-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.form-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-header-item,
+.form-header-input,
+.form-header-unit {
+    width: 100%;
+    font-weight: bold;
+}
+
+.form-header-item {
+    text-align: left;
+}
+
+.form-header-input {
+    text-align: center;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.form-label {
+    width: 100%;
+    text-align: left;
+}
+
+.form-unit {
+    width: 100%;
+    text-align: right;
+}
+
+.form-aditional-cost {
+    font-size: 0.8rem;
+    text-align: balance;
+}
+
+.search-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.form-table th,
+.form-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.form-table th {
+    color: black;
+    background-color: #f2f2f2;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.total-span {
+    color: green;
+}
+
+small {
+    margin: 0 auto;
+}
+
+.form-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.form-submit:hover {
+    box-shadow: 4px 4px 3px 0px #14a278;
+    background-color: white;
+    background-color: #45a049;
+}
