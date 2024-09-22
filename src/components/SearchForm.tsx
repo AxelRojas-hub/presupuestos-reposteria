@@ -120,15 +120,18 @@ const SearchForm: React.FC<SearchFormProps> = ({ data }) => {
                     ))}
                 </tbody>
             </table>
-            <FormInput
+            <div className='form-footer'>
+                <FormInput
                 label="Costos fijos/Adicionales"
                 name="additionalCosts"
                 value={costosAdicionales}
                 onChange={costosAdicionalesChange}
-            />
-            
-            <h2 className='h2-final-total'>Total: <span className='total-span'>{finalTotal}$</span></h2>
-            <small>(Para recuperar la inversión inicial)</small>
+                />
+                <div>
+                    <h2 className='h2-final-total'>Total: <span className='total-span'>{finalTotal}$</span></h2>
+                    <small>(Para recuperar la inversión inicial)</small>
+                </div>
+            </div>
             {/* Descargar presupuesto resta implementar */}
             {/* <button type="submit" className="form-submit" >Descargar mi presupuesto</button> */}
         </form>
