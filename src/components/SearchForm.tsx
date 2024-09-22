@@ -128,7 +128,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ data }) => {
                 onChange={costosAdicionalesChange}
                 />
                 <div>
-                    <h2 className='h2-final-total'>Total: <span className='total-span'>{finalTotal}$</span></h2>
+                    <h2 className='h2-final-total'><span className='total-span'>{finalTotal}$</span></h2>
                     <small>(Para recuperar la inversión inicial)</small>
                 </div>
             </div>
